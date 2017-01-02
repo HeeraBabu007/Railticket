@@ -1,0 +1,25 @@
+
+Initially, the user is made to fill the userid and the password.If it matches with the admin's account the user is taken to the admin menu else the user is treated 
+like a passenger and has to fill name, contact, initial station and final station.The user is shown the total fare for the journey and the information is stored 
+in the passenger table. If admin operates the system eight options are available:-
+
+(1).SHOW ROADMAP --------------------------- Shows the existing stops in the route.
+(2).CHANGE STOPS --------------------------- It is selected to add or remove a station. 
+(3).SHOW FARE BETWEEN TWO STOPS ------------ It shows fare between two stops.
+(4).CHANGE FARE BETWEEN TWO STOPS ---------- It is selected to change the existing fare between two stops.
+(5).SHOW PASSENGER DETAILS ----------------- It shows the passenger details travelled.
+(6).MONEY COLLECTED IN EACH TRANSACTION ---- Shows the money collected in each successful transaction and total money collected.
+(7).ADD ADMIN ------------------------------ Admin can add other admin.
+(8).SHOW ADMIN ----------------------------- It shows the existing admin.
+
+Database-rail
+
+Tables:-
+
+1.admin--------Stores information of existing admin such as their userid,password,name and contact.
+2.earned-------Stores the money collected in each successful transaction.
+3.fare---------Stores the existing fare for travelling between two stations.
+4.passenger----Stores the information of every passenger travelled such as userid, password, name, contact, initial station, final station and total fare.
+5.roadmap------Stores the existing stops in the route.           
+
+
